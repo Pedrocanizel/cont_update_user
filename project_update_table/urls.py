@@ -21,5 +21,5 @@ from app_update_table import views as lcviews
 # Additionally, we include login URLs for the browsable API.
 
 urlpatterns = [
-    path('update_table/', lcviews.update_table),
+    path('update_user/', lcviews.update_table),
 ]
